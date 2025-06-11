@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+@import "tailwindcss";
+
+@theme {
+  --font-Jakarta: "Plus Jakarta Sans", "sans-serif";
+  --color-project-Lime: hsl(61, 70%, 52%);
+  --color-hover: hsl(62, 72%, 76%);
+  --color-project-Red: hsl(4, 69%, 50%);
+
+  --color-project-100: hsl(202, 86%, 94%);
+  --color-project-300: hsl(203, 41%, 72%);
+  --color-project-500: hsl(200, 26%, 54%);
+  --color-project-700: hsl(200, 24%, 40%);
+  --color-project-900: hsl(202, 56%, 12%);
+  --color-project-800: hsl(201, 54%, 16%);
+}
+
+.mortgage-amount{
+  padding: 0.5rem 0.75rem;
+  border-radius: 0.375rem;
+  font-weight: 700;
+  border-right: none;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.mortgage-year-rate{
+  padding: 0.5rem 0.75rem;
+  border-radius: 0.375rem;
+  font-weight: 700;
+  border-left: none;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
